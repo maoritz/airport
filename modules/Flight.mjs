@@ -2,6 +2,8 @@ import dayjs from "dayjs";
 import log from "@ajar/marker";
 import {EventEmitter} from "events";
 
+console.log('something')
+
 class Flight extends EventEmitter {
     #flight_number;
     #destination;
